@@ -122,7 +122,7 @@ export default {
 @media (max-width: 768px) {
   .preview {
     width: 100%;
-    height: calc(131.42857px + 110.49107vw);
+    height: 100vh;
     min-height: 100%;
   }
   .preview_shadow {
