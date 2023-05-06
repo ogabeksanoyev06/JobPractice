@@ -1,0 +1,124 @@
+.kurs-carousel {
+  margin: 2rem 15rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+
+  @include respond(tab-land) {
+    margin: 2rem 8rem;
+  }
+
+  @include respond(tab-port) {
+    margin: 2rem 4rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include respond(phone) {
+    margin: 2rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+.kurs-carousel-block {
+  width: 100%;
+  display: flex;
+  justify-content: center !important;
+  border: 0;
+
+  &:hover {
+    border: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
+  }
+}
+
+.subject-carousel {
+  margin: 2rem 15rem;
+  padding: 0 3rem;
+  background-color: $white;
+  position: relative !important;
+
+  @include respond(tab-land) {
+    margin: 2rem 8rem;
+  }
+
+  @include respond(tab-port) {
+    margin: 2rem 4rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include respond(phone) {
+    margin: 2rem;
+  }
+}
+
+.subject-carousel-item {
+  border: solid 1px $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  font-size: 1.8rem;
+  color: $primary;
+  font-weight: 500;
+  transition: all .2s;
+
+  &:active {
+    cursor: pointer;
+  }
+}
+
+.subject-carousel-item:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: $primary;
+  border: solid 1px $orange;
+}
+
+
+.owl-nav {
+  position: relative;
+  margin-top: 0 !important;
+}
+
+.owl-prev, .owl-next {
+  position: absolute;
+}
+
+.owl-prev {
+  font-size: 4rem !important;
+  outline: none;
+  bottom: .5rem;
+  margin: 0 !important;
+  left: -2%;
+
+  @include respond(tab-port) {
+    left: -3%;
+  }
+
+  @include respond(phone) {
+    left: -6%;
+  }
+}
+
+.owl-next {
+  font-size: 4rem !important;
+  outline: none;
+  margin: 0 !important;
+  right: -2%;
+  bottom: .5rem;
+
+  @include respond(tab-port) {
+    right: -3%;
+  }
+
+  @include respond(phone) {
+    right: -6%;
+  }
+}
+
+.owl-prev:focus, .owl-next:focus,
+.owl-prev:hover, .owl-next:hover {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0) !important;
+  color: black !important;
+}
