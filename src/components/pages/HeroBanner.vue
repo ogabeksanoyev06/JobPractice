@@ -107,7 +107,7 @@ export default {
   filter: brightness(60%);
   display: block;
   width: 100%;
-  height: calc(117.14286px + 114.95536vw);
+  height: calc(100vh - 100px);
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -122,8 +122,7 @@ export default {
 @media (max-width: 768px) {
   .preview {
     width: 100%;
-    height: 100vh;
-    min-height: 100%;
+    height: calc(100vh - 100px);
   }
   .preview_shadow {
     height: 100%;
