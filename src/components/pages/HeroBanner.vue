@@ -1,5 +1,5 @@
 <template>
-  <div class="preview main-header">
+  <div class="preview main-header" data-aos="fade-down">
     <div style="position: fixed; top: 0; left: 0; width: 100%; z-index: 100">
       <AppHeader />
     </div>
@@ -7,7 +7,7 @@
       <div class="preview_content">
         <h1 itemprop="name" class="preview_content-title">
           <div class="logo-box">
-            <img class="logotip" src="/svg/logo.svg" />
+            <img class="logotip" src="/svg/logowhite.svg" />
           </div>
         </h1>
       </div>

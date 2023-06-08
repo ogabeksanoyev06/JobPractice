@@ -1,5 +1,5 @@
 <template>
-  <div class="card__news">
+  <div class="card__news" @click="goToLink(1)">
     <div class="card__news-photo">
       <img src="https://tsue.uz/media/news/photo_2023-04-29_11-20-08.jpg" />
     </div>
@@ -31,10 +31,10 @@ export default {
     return {};
   },
   methods: {
-    goToLink() {
+    goToLink(id) {
       this.$router.push({
         name: "detailed-news",
-        params: { news_id: this.id },
+        params: { newsId: id },
       });
     },
   },

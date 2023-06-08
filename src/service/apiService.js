@@ -5,7 +5,7 @@ window.axios = axios;
 export let baseURL = "http://ocelot.cpru.uz/";
 
 export default {
-  install: function(Vue) {
+  install: function (Vue) {
     axios.defaults.baseURL = baseURL;
     Vue.prototype.$api = {
       send(requestType, apiRoute, params = {}, data = null) {

@@ -40,6 +40,14 @@ export default {
   data() {
     return {};
   },
+  methods: {
+    goToLink(newsId) {
+      this.$router.push({
+        name: "newsId",
+        params: { newsId: newsId },
+      });
+    },
+  },
 };
 </script>
 <style lang="scss" scoped></style>

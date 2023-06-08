@@ -22,6 +22,7 @@
           :data-aos-delay="index * 50"
           data-aos="fade-up"
           data-aos-duration="20000"
+          @click="goToLink(index)"
         >
           <div class="page__news-photo">
             <img
@@ -69,6 +70,14 @@ export default {
         button: "page-link",
       },
     };
+  },
+  methods: {
+    goToLink(newsId) {
+      this.$router.push({
+        name: "detailed-news",
+        params: { newsId: newsId },
+      });
+    },
   },
 };
 </script>

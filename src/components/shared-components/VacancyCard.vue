@@ -12,7 +12,6 @@
         </h3>
         <!-- <div class="vac-card__badge">Ichki tanlov</div> -->
       </div>
-
       <p class="vac-card__unit">
         <span>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. At atque odit
@@ -24,35 +23,33 @@
     <div class="vac-card__item">
       <p class="vac-card__payment">
         <svg
-          width="19"
-          height="19"
-          viewBox="0 0 19 19"
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
         >
-          <rect width="19" height="19" fill="url(#pattern0)" />
-          <defs>
-            <pattern
-              id="pattern0"
-              patternContentUnits="objectBoundingBox"
-              width="1"
-              height="1"
-            >
-              <use xlink:href="#image0_96_57" transform="scale(0.0078125)" />
-            </pattern>
-            <image
-              id="image0_96_57"
-              width="128"
-              height="128"
-              xlink:href="data:image/png;base64,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"
-            />
-          </defs>
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M12.667 3.33333H3.33366C2.59728 3.33333 2.00033 3.93029 2.00033 4.66667V11.3333C2.00033 12.0697 2.59728 12.6667 3.33366 12.6667H12.667C13.4034 12.6667 14.0003 12.0697 14.0003 11.3333V4.66667C14.0003 3.93029 13.4034 3.33333 12.667 3.33333ZM3.33366 2C1.8609 2 0.666992 3.19391 0.666992 4.66667V11.3333C0.666992 12.8061 1.8609 14 3.33366 14H12.667C14.1398 14 15.3337 12.8061 15.3337 11.3333V4.66667C15.3337 3.19391 14.1398 2 12.667 2H3.33366Z"
+            fill="#3165CB"
+          ></path>
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.66699 8.00008C8.66699 6.15913 10.1594 4.66675 12.0003 4.66675H14.667C15.0352 4.66675 15.3337 4.96522 15.3337 5.33341C15.3337 5.7016 15.0352 6.00008 14.667 6.00008H12.0003C10.8958 6.00008 10.0003 6.89551 10.0003 8.00008C10.0003 9.10465 10.8958 10.0001 12.0003 10.0001H14.667C15.0352 10.0001 15.3337 10.2986 15.3337 10.6667C15.3337 11.0349 15.0352 11.3334 14.667 11.3334H12.0003C10.1594 11.3334 8.66699 9.84103 8.66699 8.00008Z"
+            fill="#3165CB"
+          ></path>
+          <path
+            d="M12.6663 7.99992C12.6663 8.36811 12.3679 8.66659 11.9997 8.66659C11.6315 8.66659 11.333 8.36811 11.333 7.99992C11.333 7.63173 11.6315 7.33325 11.9997 7.33325C12.3679 7.33325 12.6663 7.63173 12.6663 7.99992Z"
+            fill="#3165CB"
+          ></path>
         </svg>
         5 000 000 UZS
       </p>
       <p class="vac-card__location">
-        <!-- <svg
+        <svg
           width="18"
           height="18"
           viewBox="0 0 18 18"
@@ -83,11 +80,11 @@
             d="M15 6.00005V5.42412C15 5.09291 14.7827 4.80092 14.4655 4.70575L9.21551 3.13075C9.07493 3.08858 8.92507 3.08858 8.78449 3.13075L3.53449 4.70575C3.21725 4.80092 3 5.09291 3 5.42412V6.00005C3 6.41427 3.33579 6.75005 3.75 6.75005H14.25C14.6642 6.75005 15 6.41427 15 6.00005ZM3.10347 3.26901C2.15175 3.55453 1.5 4.4305 1.5 5.42412V6.00005C1.5 7.24269 2.50736 8.25005 3.75 8.25005H14.25C15.4926 8.25005 16.5 7.24269 16.5 6.00005V5.42412C16.5 4.4305 15.8482 3.55453 14.8965 3.26901L9.64653 1.69401C9.2248 1.56749 8.77521 1.56749 8.35347 1.69401L3.10347 3.26901Z"
             fill="#3165CB"
           ></path>
-        </svg> -->
+        </svg>
         To'rtko'l tuman hokimligi
       </p>
       <p class="vac-card__location">
-        <!-- <svg
+        <svg
           width="18"
           height="18"
           viewBox="0 0 18 18"
@@ -100,11 +97,11 @@
             d="M13.6893 1.85856C15.2347 1.21462 16.7852 2.76504 16.1412 4.31048L11.6986 14.9728C10.8297 17.058 7.77364 16.7056 7.40227 14.4773L6.84801 11.1518L3.52245 10.5975C1.29421 10.2261 0.941754 7.17003 3.02696 6.3012L13.6893 1.85856ZM14.7566 3.73356C14.8854 3.42447 14.5753 3.11439 14.2662 3.24317L3.60389 7.68581C2.90882 7.97542 3.0263 8.99412 3.76905 9.11792L7.09461 9.67218C7.72682 9.77754 8.22223 10.273 8.3276 10.9052L8.88186 14.2307C9.00565 14.9735 10.0244 15.091 10.314 14.3959L14.7566 3.73356Z"
             fill="#3165CB"
           ></path>
-        </svg> -->
+        </svg>
         Buxoro viloyati, Qorovulbozor tumani
       </p>
       <p class="vac-card__location">
-        <!-- <svg
+        <svg
           width="16"
           height="15"
           viewBox="0 0 16 15"
@@ -123,7 +120,7 @@
             d="M8 3C8.41421 3 8.75 3.33579 8.75 3.75V7.18934L10.4053 8.84467C10.6982 9.13756 10.6982 9.61244 10.4053 9.90533C10.1124 10.1982 9.63756 10.1982 9.34467 9.90533L7.46967 8.03033C7.32902 7.88968 7.25 7.69891 7.25 7.5V3.75C7.25 3.33579 7.58579 3 8 3Z"
             fill="#3165CB"
           ></path>
-        </svg> -->
+        </svg>
         <span> To‘liq </span>
       </p>
     </div>
@@ -228,6 +225,7 @@
       :font-size="isMobileSmall ? 12 : isMobile ? 14 : 16"
       :sides="isMobileSmall ? 10 : isMobile ? 20 : 30"
       :style="isMobileSmall ? 'width:100%' : 'width: fit-content'"
+      @click="goToLink(1)"
     >
       Qiziqish bildirish
     </AppButton>
@@ -239,6 +237,17 @@ import AppButton from "../shared-components/AppButton";
 export default {
   name: "VacancyCard",
   components: { AppButton },
+  data() {
+    return {};
+  },
+  methods: {
+    goToLink(id) {
+      this.$router.push({
+        name: "vacancy-detailed",
+        params: { vacancy_id: id },
+      });
+    },
+  },
 };
 </script>
 <style lang="scss" scoped>
@@ -249,8 +258,12 @@ export default {
   background: #fcfcfe;
   border: 1px solid #dfe6f4;
   border-radius: 12px;
-  transition: 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   margin-bottom: 20px;
+  cursor: pointer;
+  &:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
   &__item {
     padding-bottom: 20px;
     // border-bottom: 1px solid #dfe6f4;
@@ -277,6 +290,8 @@ export default {
   }
   &__payment,
   &__location {
+    font-weight: 500;
+    font-size: 14px;
     line-height: 130%;
     color: #26292e;
     display: flex;
@@ -289,9 +304,9 @@ export default {
   }
   .date {
     display: flex;
-    align-items: center;
-    font-weight: 600;
-    font-size: 16px;
+    // align-items: center;
+    font-weight: 500;
+    font-size: 14px;
     gap: 8px;
     line-height: 130%;
     color: #79838e;

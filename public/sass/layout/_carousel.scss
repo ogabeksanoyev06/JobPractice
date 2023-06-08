@@ -27,7 +27,7 @@
 
   &:hover {
     border: 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -60,7 +60,7 @@
   font-size: 1.8rem;
   color: $primary;
   font-weight: 500;
-  transition: all .2s;
+  transition: all 0.2s;
 
   &:active {
     cursor: pointer;
@@ -74,20 +74,20 @@
   border: solid 1px $orange;
 }
 
-
 .owl-nav {
   position: relative;
   margin-top: 0 !important;
 }
 
-.owl-prev, .owl-next {
+.owl-prev,
+.owl-next {
   position: absolute;
 }
 
 .owl-prev {
   font-size: 4rem !important;
   outline: none;
-  bottom: .5rem;
+  bottom: 0.5rem;
   margin: 0 !important;
   left: -2%;
 
@@ -105,7 +105,7 @@
   outline: none;
   margin: 0 !important;
   right: -2%;
-  bottom: .5rem;
+  bottom: 0.5rem;
 
   @include respond(tab-port) {
     right: -3%;
@@ -116,8 +116,10 @@
   }
 }
 
-.owl-prev:focus, .owl-next:focus,
-.owl-prev:hover, .owl-next:hover {
+.owl-prev:focus,
+.owl-next:focus,
+.owl-prev:hover,
+.owl-next:hover {
   outline: none;
   background-color: rgba(255, 255, 255, 0) !important;
   color: black !important;
